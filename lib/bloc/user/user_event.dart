@@ -12,3 +12,10 @@ class ChangeUserAge extends UserEvent {
   final int age;
   ChangeUserAge(this.age);
 }
+
+class AddProfesional extends UserEvent {
+  final String profesion;
+  AddProfesional(this.profesion);
+}
+
+class DeleteUser extends UserEvent {}
